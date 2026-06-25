@@ -9,20 +9,20 @@ Welcome to my Web Development journey
 ## Progress
 
 ### Phase 1: HTML
--[]HTML Basics
--[]Forms
--[]Tables
+- [ ]HTML Basics
+- [ ]Forms
+- [ ]Tables
 
 ### Phase 2: CSS
--[] CSS Basics
--[] FlexBox
--[] Grid
+- [ ] CSS Basics
+- [ ] FlexBox
+- [ ] Grid
 
 ### Phase 3: JavaScript
--[] Variables
--[] Functions
--[] DOM Manipulation
+- [ ] Variables
+- [ ] Functions
+- [ ] DOM Manipulation
 
 ### Projects
--[] Portfolio Websites
+- [ ] Portfolio Websites
 -

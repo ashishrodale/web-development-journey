@@ -9,9 +9,9 @@ Welcome to my Web Development journey
 ## Progress
 
 ### Phase 1: HTML
-- [ ]HTML Basics
-- [ ]Forms
-- [ ]Tables
+- [ ] HTML Basics
+- [ ] Forms
+- [ ] Tables
 
 ### Phase 2: CSS
 - [ ] CSS Basics

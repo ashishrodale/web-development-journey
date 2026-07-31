@@ -16,6 +16,6 @@ Welcome to the **HTML Documentation Module**! This directory tracks core HTML co
 
 ## 🎯 Key HTML Takeaways
 
-- [cite_start]**Forms & Inputs:** Mastered `<form>`, `<input>` (types: text, checkbox, radio, range, select), `<textarea>`, and `<button>`[cite: 70].
-- [cite_start]**Semantic HTML:** Utilized explicit `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements for enhanced accessibility and SEO[cite: 72].
-- [cite_start]**Table Formatting:** Implemented structured data representations using `colspan`, `rowspan`, and semantic headers[cite: 57, 69].
+- **Forms & Inputs:** Mastered `<form>`, `<input>` (types: text, checkbox, radio, range, select), `<textarea>`, and `<button>`.
+- **Semantic HTML:** Utilized explicit `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements for enhanced accessibility and SEO.
+- **Table Formatting:** Implemented structured data representations using `colspan`, `rowspan`, and semantic headers.

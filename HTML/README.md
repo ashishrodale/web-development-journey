@@ -1,35 +1,21 @@
-# 🌐 HTML5 Learning & Practice Modules
+# 📄 HTML5 Mastery Checklist
 
-Welcome to the **HTML Directory** of my Web Development Journey. This folder contains all the theoretical concepts, core modules, and practical code snippets covered during my study of HTML5.
-
----
-
-## 📌 Module Progression Overview
-
-| Module | Topics Covered | Code Reference | Status |
-| :--- | :--- | :--- | :---: |
-| **Level 1: Basics & Structure** | Boilerplate, Headings, Paragraphs, Links, Images, Lists, Comments | [`Level-1-Basics/`](./Level-1-Basics) | `Completed` |
-| **Level 2: Elements & Semantics** | Block vs. Inline, `<div>` vs `<span>`, Semantic Tags, HTML Entities | [`Level-2-Elements/`](./Level-2-Elements) | `Completed` |
-| **Level 3: Forms & Media** | Forms, Input Types, Tables, Semantic Layouts, Audio/Video Tags | `Coming Soon` | `In Progress` |
+Welcome to the **HTML Documentation Module**! This directory tracks core HTML concepts, semantic layouts, structured tables, interactive forms, and best practice code snippets.
 
 ---
 
-## 🛠️ Key Concepts Practiced
+## 🛠️ Topic Progression Tracker
 
-### 1. HTML Level 1 (Fundamentals)
-* **Document Architecture**: Understanding `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>`.
-* **Content Structuring**: Headings (`<h1>`–`<h6>`), Paragraphs (`<p>`), Unordered (`<ul>`) & Ordered (`<ol>`) lists.
-* **Navigation & Assets**: Hyperlinks (`<a>`) with `target="_blank"`, and Images (`<img>`) with `alt` text accessibility.
-
-### 2. HTML Level 2 (Elements & Semantics)
-* **Box Model Precursors**: Block-level vs. Inline element behavior.
-* **Grouping Elements**: Using `<div>` for container blocks and `<span>` for inline styling/hooks.
-* **Semantic Web**: Organizing layouts using `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`.
-* **Entities**: Handling special characters (`&lt;`, `&gt;`, `&amp;`, `&nbsp;`).
+| Module | Status | Covered Concepts | Primary Files |
+| :--- | :---: | :--- | :--- |
+| **Level 1: Basics** | `Completed` | Boilerplate, Headings, Paragraphs, Lists, Links, Images | [`Level-1-Basics/`](./Level-1-Basics/) |
+| **Level 2: Tables & Forms** | `Completed` | Tables (`table`, `tr`, `td`, `th`), Form Controls, Inputs | [`Level-2-Elements/`](./Level-2-Elements/) |
+| **Level 3: Advanced HTML** | `Completed` | Form Attributes, Labels/Placeholders, Select/Textarea, Semantic Tags | [`Level-3-Advanced/`](./Level-3-Advanced/) |
 
 ---
 
-## 🚀 How to View the Code
-Navigate into each module folder to find individual `.html` files and dedicated `README.md` documentation:
-* [Level 1: Basics Folder](./Level-1-Basics)
-* [Level 2: Elements Folder](./Level-2-Elements)
+## 🎯 Key HTML Takeaways
+
+- [cite_start]**Forms & Inputs:** Mastered `<form>`, `<input>` (types: text, checkbox, radio, range, select), `<textarea>`, and `<button>`[cite: 70].
+- [cite_start]**Semantic HTML:** Utilized explicit `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>` elements for enhanced accessibility and SEO[cite: 72].
+- [cite_start]**Table Formatting:** Implemented structured data representations using `colspan`, `rowspan`, and semantic headers[cite: 57, 69].

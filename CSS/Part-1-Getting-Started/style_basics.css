@@ -1,0 +1,30 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: rgb(44, 62, 80);
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+/* Content Text */
+p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: #ffffff;
+}

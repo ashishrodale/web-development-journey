@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level 3 - Forms & Semantics</title>
+</head>
+<body>
+
+    <header>
+        <h1>User Registration & Feedback Form</h1>
+        <p>Demonstrating Level 3 HTML Elements</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="#" method="POST">
+                
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                </div>
+
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to newsletter</label>
+                </div>
+
+                <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="experience">Skill Level (Range):</label>
+                    <input type="range" id="experience" name="experience" min="1" max="10">
+                </div>
+
+                <div>
+                    <label for="bio">Short Bio:</label><br>
+                    <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea>
+                </div>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ashish Rodale - Web Development Journey</p>
+    </footer>
+
+</body>
+</html>

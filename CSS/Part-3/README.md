@@ -1,41 +1,31 @@
-# 🎨 CSS Part 3: Box Model, Spacing & Layout Mechanics
+# 🎨 CSS Module 3: Box Model, Borders & Sizing
 
-Welcome to **CSS Part 3** of the Web Development series! This section focuses on mastering the **CSS Box Model**, element dimensions, spacing mechanics, and reset strategies essential for responsive UI development.
-
----
-
-## 📌 Topics Covered
-
-* **CSS Box Model Basics**: Content, Padding, Border, and Margin components.
-* **Border Styling**: `border-width`, `border-style`, `border-color`, and `border-radius`.
-* **Padding & Margin**: Inner and outer spacing, directional shorthand rules, and visual alignment.
-* **Sizing Properties**: Working with `height`, `width`, `max-width`, and standard sizing constraints.
-* **Box Sizing Control**: Understanding `content-box` vs `border-box` and modern CSS reset patterns.
+Welcome to **CSS Part 3**! This directory contains core concepts covering the CSS Box Model, sizing behavior, border styling, rounded corners, and practice assignments.
 
 ---
 
-## 📂 Folder Content Overview
+## 📚 Core Topics Covered
 
-| Folder / File | Type | Description |
-| :--- | :--- | :--- |
-| `concepts/` | Key Concepts | Hands-on code demonstrating Box Model elements, borders, and margins. |
-| `assignments/aq1.html` | Practice | Assignment 1 HTML structure (Styling div components & buttons). |
-| `assignments/style1.css` | Practice | Stylesheet for Assignment 1. |
-| `assignments/aq2.html` | Practice | Assignment 2 HTML structure. |
-| `assignments/style2.css` | Practice | Stylesheet for Assignment 2. |
-| `assignments/aq3.html` | Practice | Assignment 3 HTML structure. |
-| `assignments/style3.css` | Practice | Stylesheet for Assignment 3. |
+| Topic | Description | Status | Reference Code |
+| :--- | :--- | :---: | :---: |
+| **CSS Box Model** | Content, Padding, Border, and Margin concepts | Completed ✅ | [`index.html`](./index.html) |
+| **Sizing & Constraints** | `height`, `width`, `max-width`, and `min-width` | Completed ✅ | [`index.html`](./index.html) |
+| **Padding & Margins** | Spacing inside and outside element boundaries | Completed ✅ | [`index.html`](./index.html) |
+| **Borders & Radius** | Border styling, widths, colors, and `border-radius` | Completed ✅ | [`index.html`](./index.html) |
+| **Box Sizing** | `content-box` vs `border-box` behavior | Completed ✅ | [`index.html`](./index.html) |
 
 ---
 
-## 🛠️ Key Takeaways & Syntax Highlights
+## 📂 File Directory
 
-### 1. Global Box-Sizing Reset
-To prevent width and height calculations from swelling when adding padding or borders, always apply `box-sizing: border-box`:
-
-```css
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+```text
+CSS/Part-3/
+├── index.html         # Main concepts HTML file
+├── style.css          # Core concepts stylesheet
+└── assignments/
+    ├── aq1.html       # Assignment Question 1 HTML
+    ├── style1.css     # Assignment Question 1 CSS
+    ├── aq2.html       # Assignment Question 2 HTML
+    ├── style2.css     # Assignment Question 2 CSS
+    ├── aq3.html       # Assignment Question 3 HTML
+    └── style3.css     # Assignment Question 3 CSS

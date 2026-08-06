@@ -1,51 +1,38 @@
-# 📱 CSS Part 6: Responsive Web Design & Grid Layouts
+# 📱 CSS Part 6: Responsive Web Design, Media Queries & Animations
 
-Welcome to the **CSS Part 6** module documentation! This folder contains all course practice files, assignment solutions, and a mini responsive web project focusing on CSS Grid, Media Queries, Viewport Units, and Stacking Contexts (`z-index`).
-
----
-
-## 🚀 Featured Project: Pet Adoption Web Page
-
-> **Live Preview Focus:** Optimized for mobile viewports (specifically **iPhone SE** dimensions: `375px × 667px`).
-
-* **Folder Path:** [`project-pet-adoption/`](./project-pet-adoption/)
-* **Files:** [`index.html`](./project-pet-adoption/index.html) | [`style.css`](./project-pet-adoption/style.css)
-* **Key Features:** Mobile-first layout, flexible card components, dynamic media queries, and accessible typography.
+[cite_start]This module focuses on building mobile-first, adaptive user interfaces using **Media Queries**, **CSS Grid Layouts**, keyframe animations, and layering with **`z-index`**[cite: 4, 24, 26]. 
 
 ---
 
-## 📚 Core Topics Covered
+## 🐾 Featured Project: Pet Adoption Web Page
 
-1. **CSS Grid Layout:** Grid containers, `grid-template-columns`, `grid-template-rows`, `gap`, `grid-column`, and `grid-row` spans.
-2. **Media Queries (`@media`):** Responsive design breakpoints, orientation handling, and screen size targeting (`max-width`, `min-width`).
-3. **Layering & Z-Index:** Stacking context rules, relative/absolute positioning interaction, and display layering.
-4. **Mobile Responsiveness:** Viewport meta configuration, fluid units (`%`, `vw`, `vh`, `rem`), and mobile-first adaptation.
+[cite_start]A fully responsive, iPhone SE-optimized web page designed to showcase layout flexibility across modern device viewports[cite: 2, 4, 47].
+
+* 🔗 **Source Code Folder:** [`/projects/pet_adoption_website`](./projects/pet_adoption_website/)
+* 🌐 **Live Website Demo:** [View Live Site](https://ashishrodale.github.io/web-development-journey/CSS/Part-6/projects/pet_adoption_website/)
 
 ---
 
-## 🏋️ Module Files & Direct Links
+## 📂 Module Index & Direct Links
 
 ### 🛠️ Exercises & Practice Labs
+| Topic | Description | Source Files |
+| :--- | :--- | :---: |
+| **CSS Grid Playground** | Dynamic grid layout experiments and track sizing | [HTML](./exercises/grid_playground.html) \| [CSS](./exercises/grid_playground.css) |
+| **Media Queries** | Mobile-first breakpoints and layout changes | [HTML](./exercises/media_queries_practice.html) \| [CSS](./exercises/media_queries_practice.css) |
+| **z-index Layering** | Stacking context and element elevation controls | [HTML](./exercises/z_index_stacking.html) \| [CSS](./exercises/z_index_stacking.css) |
 
-| Topic / Lab | Description | HTML File | CSS File |
-| :--- | :--- | :---: | :---: |
-| **Grid Playground** | CSS Grid container properties & track definitions | [View HTML](./exercises/grid_playground.html) | [View CSS](./exercises/grid_playground.css) |
-| **Media Queries** | Screen size adaptation & responsive rules | [View HTML](./exercises/media_queries_practice.html) | [View CSS](./exercises/media_queries_practice.css) |
-| **Z-Index Layering** | Overlapping elements & stacking hierarchy | [View HTML](./exercises/z_index_stacking.html) | [View CSS](./exercises/z_index_stacking.css) |
-
----
-
-### 📝 Assignments
-
-| Assignment | Covered Topics | HTML Solution | CSS Solution |
-| :--- | :--- | :---: | :---: |
-| **Responsive Card & Grid** | Q1–Q3 Responsive cards and grid placement | [View HTML](./assignments/responsive_card_assignment.html) | [View CSS](./assignments/responsive_card_assignment.css) |
+### 📝 Assignment Solutions
+| Task / Component | Key Concepts Covered | Source Files |
+| :--- | :--- | :---: |
+| **Responsive Spinner Card** | Dynamic `@keyframes spin` rotation & media queries | [HTML](./assignments/responsive_spinner_card.html) \| [CSS](./assignments/responsive_spinner_card.css) |
+| **12-Column Grid Layout** | Dynamic column spans (`repeat(12, 1fr)`) | [HTML](./assignments/12_column_grid_layout.html) \| [CSS](./assignments/12_column_grid_layout.css) |
+| **Responsive Photo Gallery** | Media queries with scale transforms on hover | [HTML](./assignments/responsive_gallery_grid.html) \| [CSS](./assignments/responsive_gallery_grid.css) |
 
 ---
 
-## 🛠️ How to Run Locally
+## 🛠️ How to View Locally
 
-1. Clone or download the repository.
-2. Navigate to `CSS/Part-6/project-pet-adoption/`.
-3. Open `index.html` in any web browser or launch with **VS Code Live Server**.
-4. Open Developer Tools (`F12`), toggle the Device Toolbar (`Ctrl+Shift+M` or `Cmd+Shift+M`), and set the viewport device to **iPhone SE** to view the optimized design!
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/ashishrodale/web-development-journey.git](https://github.com/ashishrodale/web-development-journey.git)

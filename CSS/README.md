@@ -1,52 +1,32 @@
-# 📱 CSS Part 6: Responsive Web Design & Grid Layouts
+# 🎨 CSS3 Mastery & Responsive Web Design
 
-Welcome to the **CSS Part 6** module documentation! This repository contains exercise implementations, core concepts practice, assignment solutions, and a mini responsive web project focusing on CSS Grid, Media Queries, Keyframe Animations, and Stacking Contexts (`z-index`).
-
----
-
-## 🚀 Featured Project: Pet Adoption Web Page
-
-> **Mobile Optimization Target:** Custom layout tailored specifically for **iPhone SE** viewports (`375px × 667px`).
-
-* **Project Folder:** [`project-pet-adoption/`](./project-pet-adoption/)
-* **Files:** [`index.html`](./project-pet-adoption/index.html) | [`style.css`](./project-pet-adoption/style.css)
-* **Key Focus:** Mobile-first layout, media breakpoints, flexible card structures, dynamic flexbox layouts.
+Welcome to the **CSS** core directory of my web development journey! This folder documents my progress through modern CSS principles, responsive design techniques, advanced layout models, and UI mini-projects.
 
 ---
 
-## 📚 Topics Covered
+## 📂 Curriculum & Module Navigation
 
-* **CSS Grid System:** Track sizing, dynamic fractional units (`1fr`), `repeat()` utility, template columns/rows, gap spacing, and span rules.
-* **Responsive Breakpoints (`@media`):** Screen width adaptations, orientation settings, fluid typography, mobile-first design patterns.
-* **Keyframe Animations & Loaders:** Dynamic UI states, CSS rotation animations, hover transformations.
-* **Stacking Context & Z-Index:** Layering rules, positioned element hierarchy, visual depth management.
-
----
-
-## 🛠️ Folder Breakdown & Direct Links
-
-### 🏋️ Assignment Solutions
-
-| Assignment | Description & Key Features | HTML Link | CSS Link |
-| :--- | :--- | :---: | :---: |
-| **Q1: Responsive Spinner Card** | Responsive card with custom CSS keyframe spinning animation | [View HTML](./assignments/responsive_spinner_card.html) | [View CSS](./assignments/responsive_spinner_card.css) |
-| **Q2: 12-Column Grid Layout** | 12-column responsive web layout with defined column spans | [View HTML](./assignments/12_column_grid_layout.html) | [View CSS](./assignments/12_column_grid_layout.css) |
-| **Q3: Responsive Gallery Grid** | Multi-column photo gallery with breakpoint adaptation | [View HTML](./assignments/responsive_gallery_grid.html) | [View CSS](./assignments/responsive_gallery_grid.css) |
+| Module | Core Topics & Key Concepts | Project / Milestone | Direct Link |
+| :--- | :--- | :--- | :---: |
+| **CSS Part 1** | CSS Basics, Selectors, Color Systems & Text Styling | Styling Basics Practice | [Explore Module ➔](./Part-1/) |
+| **CSS Part 2** | Box Model, Display Properties, Margins, Borders & Padding | Layout Basics | [Explore Module ➔](./Part-2/) |
+| **CSS Part 3** | CSS Units, Positions (Relative, Absolute, Fixed, Sticky) | Positioning Demos | [Explore Module ➔](./Part-3/) |
+| **CSS Part 4** | Flexbox, Alignment, Dynamic Sizing, Flex Grow & Shrink | Flex Layout UI Cards | [Explore Module ➔](./Part-4/) |
+| **CSS Part 5** | CSS Grid Layout, Grid Template Columns/Rows, Spans | Grid Assignment Solutions | [Explore Module ➔](./Part-5/) |
+| **CSS Part 6** | Media Queries, Responsive Web Design & z-index | 🐾 **Pet Adoption Web Page** | [Explore Module ➔](./Part-6/) |
 
 ---
 
-### 💻 Practice Exercises & Labs
+## 🚀 Key Highlights & Applied Concepts
 
-| Exercise Topic | Concept Focus | HTML Link | CSS Link |
-| :--- | :--- | :---: | :---: |
-| **Grid Playground** | CSS Grid container properties & track definitions | [View HTML](./exercises/grid_playground.html) | [View CSS](./exercises/grid_playground.css) |
-| **Media Queries** | Breakpoint handling & responsive rules | [View HTML](./exercises/media_queries_practice.html) | [View CSS](./exercises/media_queries_practice.css) |
-| **Z-Index Layering** | Overlapping elements & stacking hierarchy | [View HTML](./exercises/z_index_stacking.html) | [View CSS](./exercises/z_index_stacking.css) |
+* **Responsive Design:** Mobile-first approach optimized for mobile viewports like iPhone SE.
+* **Modern Layout Engines:** Deep dive into both CSS Flexbox and 12-Column CSS Grid System.
+* **Interactive UI:** Smooth CSS `@keyframes` animations, dynamic hover transforms, and custom element layering using `z-index`.
 
 ---
 
-## 🛠️ How to View Locally
+## 💻 Tech Stack Used
 
-1. Open VS Code and navigate to `CSS/Part-6/`.
-2. Launch any HTML file using **Live Server** extension.
-3. Open DevTools (`F12`), toggle the Device Toolbar (`Ctrl+Shift+M` / `Cmd+Shift+M`), and test across mobile breakpoints!
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)

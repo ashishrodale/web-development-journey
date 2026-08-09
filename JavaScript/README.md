@@ -19,3 +19,4 @@ Welcome to the JavaScript section of my **Web Development Journey** repository! 
 1. Open any subfolder (e.g., `Part-1-Basics/`).
 2. Open `index.html` in your web browser.
 3. Open the Developer Tools console (**F12** or **Right Click ➡️ Inspect ➡️ Console**) to see script execution output.
+''

@@ -8,9 +8,9 @@ This module focuses on mobile-first responsive architecture, media query breakpo
 
 A fully responsive, mobile-optimized web application showcasing dynamic layouts, fluid grids, and adaptive UI components across desktop and mobile viewports.
 
-* **Project Source Code:** [`project-pet-adoption/`](./project-pet-adoption/)
-* **HTML Document:** [`index.html`](./project-pet-adoption/index.html)
-* **CSS Stylesheet:** [`style.css`](./project-pet-adoption/style.css)
+* 🌐 **Live Demo:** [View Live Web Page](https://ashishrodale.github.io/web-development-journey/CSS/06-Part-6/project-pet-adoption/index.html)
+* 📄 **HTML Source:** [`index.html`](./project-pet-adoption/index.html)
+* 🎨 **CSS Stylesheet:** [`style.css`](./project-pet-adoption/style.css)
 
 ---
 

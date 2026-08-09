@@ -1,37 +1,44 @@
-# 🎨 CSS Part 4: Flexbox Layouts, Media Queries & Animations
+# 🚀 CSS Module 4: Flexbox Layouts, Media Queries & Keyframe Animations
 
-Welcome to **Part 4** of the CSS learning module! This section focuses on modern CSS layout architectures using **Flexbox**, responsive web design via **Media Queries**, and UI micro-interactions using **Transitions, Transforms, and `@keyframes` Animations**.
-
----
-
-## 📑 Core Concepts Covered
-
-* **CSS Flexbox Layouts**: Container properties (`display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-wrap`, `gap`) and item sizing.
-* **Responsive Design**: Mobile-first styling and media queries (`@media`).
-* **Transitions & 2D Transforms**: Smooth state changes (`transition-duration`, `ease-in-out`), hover scales, rotations (`transform: scale()`, `translate()`).
-* **Keyframe Animations**: Custom keyframe sequences (`@keyframes`), infinite loading spinners, and pulse effects.
+This module focuses on modern CSS layout architectures, responsive design patterns using media queries, 2D transforms, smooth UI state transitions, and custom `@keyframes` animations.
 
 ---
 
-## 🏋️ Repository Structure & Direct Links
+## 📊 Core Concepts Covered
 
-### 🛠️ Practice Exercises (Lecture Work)
+* **Flexbox Layouts**: Container alignment (`justify-content`, `align-items`, `flex-wrap`, `gap`) and flex item sizing mechanics.
+* **Responsive Web Design**: Mobile-first breakpoints using `@media` rules.
+* **Transitions & 2D Transforms**: Dynamic hover feedback (`scale()`, `translate()`) and timing functions.
+* **Keyframe Animations**: Custom keyframe loops for UI components (loading spinners, pulse effects).
+
+---
+
+## 📁 Repository Structure & Direct Links
+
+### 🛠️ Practice Exercises
 
 | Topic / Description | HTML Source | CSS Stylesheet | Status |
-|---|---|---|---|
-| Flexbox Container Alignment, Transitions & Transforms | [HTML File](./exercises/flexbox_and_transitions_practice.html) | [CSS File](./exercises/flexbox_and_transitions_practice.css) | `Completed` ✅ |
+| :--- | :--- | :--- | :---: |
+| **Flexbox, Transitions & Transforms** | [`flexbox_and_transitions_practice.html`](./exercises/flexbox_and_transitions_practice.html) | [`flexbox_and_transitions_practice.css`](./exercises/flexbox_and_transitions_practice.css) | Completed |
+
+---
 
 ### 🎯 Assignments (Solutions Q1 - Q5)
 
-All 5 assignment problems have been solved and consolidated into a clean, single HTML and CSS pair:
-
-| Module Assignment | Tasks Included | HTML File | CSS File | Status |
-|---|---|---|---|---|
-| **Assignment Solutions (Q1 - Q5)** | • **Q1**: Responsive Navigation Bar<br>• **Q2**: Flexbox Card Layout Grid<br>• **Q3**: Hover Effects & Scale Transforms<br>• **Q4**: Pulse & Loader Keyframe Animation<br>• **Q5**: Responsive Media Query Breakpoints | [HTML Solution](./assignments/flexbox_and_animations_solutions.html) | [CSS Solution](./assignments/flexbox_and_animations_solutions.css) | `Completed` ✅ |
+| Assignment Module | Tasks Included | HTML Source | CSS Stylesheet | Status |
+| :--- | :--- | :--- | :--- | :---: |
+| **Solutions Collection (Q1–Q5)** | • **Q1**: Responsive Navigation Bar<br>• **Q2**: Flexbox Card Layout Grid<br>• **Q3**: Hover Scale & Transform Effects<br>• **Q4**: Pulse & Loader Keyframe Animation<br>• **Q5**: Media Query Breakpoints | [`flexbox_and_animations_solutions.html`](./assignments/flexbox_and_animations_solutions.html) | [`flexbox_and_animations_solutions.css`](./assignments/flexbox_and_animations_solutions.css) | Completed |
 
 ---
 
-## 🛠️ How to Preview & Run
+## 📂 File Directory
 
-1. Clone or download the parent repository `web-development-journey`.
-2. Open any `.html` file inside `/exercises` or `/assignments` directly in Chrome or through VS Code **Live Server**.
+```text
+04-Part-4/
+├── README.md
+├── assignments/
+│   ├── flexbox_and_animations_solutions.css
+│   └── flexbox_and_animations_solutions.html
+└── exercises/
+    ├── flexbox_and_transitions_practice.css
+    └── flexbox_and_transitions_practice.html

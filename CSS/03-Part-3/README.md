@@ -1,31 +1,42 @@
-# 🎨 CSS Module 3: Box Model, Borders & Sizing
+# 📦 CSS Module 3: Box Model, Borders & Sizing
 
-Welcome to **CSS Part 3**! This directory contains core concepts covering the CSS Box Model, sizing behavior, border styling, rounded corners, and practice assignments.
-
----
-
-## 📚 Core Topics Covered
-
-| Topic | Description | Status | Reference Code |
-| :--- | :--- | :---: | :---: |
-| **CSS Box Model** | Content, Padding, Border, and Margin concepts | Completed ✅ | [`index.html`](./index.html) |
-| **Sizing & Constraints** | `height`, `width`, `max-width`, and `min-width` | Completed ✅ | [`index.html`](./index.html) |
-| **Padding & Margins** | Spacing inside and outside element boundaries | Completed ✅ | [`index.html`](./index.html) |
-| **Borders & Radius** | Border styling, widths, colors, and `border-radius` | Completed ✅ | [`index.html`](./index.html) |
-| **Box Sizing** | `content-box` vs `border-box` behavior | Completed ✅ | [`index.html`](./index.html) |
+This directory covers foundational layout mechanics, including the CSS Box Model, border radius manipulation, dimensional constraints (`min-width`/`max-width`), and sizing behavior (`content-box` vs. `border-box`).
 
 ---
 
-## 📂 File Directory
+## 📊 Core Concepts & Implementation Reference
+
+| Concept / Topic | Primary Demo Code | Description | Status |
+| :--- | :--- | :--- | :---: |
+| **CSS Box Model** | [`index.html`](./index.html) | Content, padding, border, and margin hierarchy | Completed |
+| **Sizing Constraints** | [`index.html`](./index.html) | Controlling `height`, `width`, `max-width`, and `min-width` | Completed |
+| **Padding & Margins** | [`index.html`](./index.html) | Spacing mechanics inside and outside element boundaries | Completed |
+| **Borders & Radius** | [`index.html`](./index.html) | Border properties, style variants, and `border-radius` | Completed |
+| **Box Sizing** | [`index.html`](./index.html) | standard `content-box` vs flexible `border-box` sizing | Completed |
+
+---
+
+## 📚 Practice & Assignments
+
+| Assignment | Solution Markup | Solution Stylesheet | Key Focus Area |
+| :--- | :--- | :--- | :--- |
+| **Question 1** | [`aq1.html`](./assignments/aq1.html) | [`style1.css`](./assignments/style1.css) | Custom box model layout & padding setup |
+| **Question 2** | [`aq2.html`](./assignments/aq2.html) | [`style2.css`](./assignments/style2.css) | Border radius & custom card dimensions |
+| **Question 3** | [`aq3.html`](./assignments/aq3.html) | [`style3.css`](./assignments/style3.css) | Responsive container sizing with `max-width` |
+
+---
+
+## 📁 Directory Structure
 
 ```text
-CSS/Part-3/
-├── index.html         # Main concepts HTML file
-├── style.css          # Core concepts stylesheet
+03-Part-3/
+├── index.html
+├── style.css
+├── README.md
 └── assignments/
-    ├── aq1.html       # Assignment Question 1 HTML
-    ├── style1.css     # Assignment Question 1 CSS
-    ├── aq2.html       # Assignment Question 2 HTML
-    ├── style2.css     # Assignment Question 2 CSS
-    ├── aq3.html       # Assignment Question 3 HTML
-    └── style3.css     # Assignment Question 3 CSS
+    ├── aq1.html
+    ├── aq2.html
+    ├── aq3.html
+    ├── style1.css
+    ├── style2.css
+    └── style3.css

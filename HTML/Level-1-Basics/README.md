@@ -8,3 +8,4 @@ This directory covers the basic building blocks of HTML, including document stru
 * **Links & Media**: `<a>` (anchor), `<img>` (image) with `src` and `alt` attributes
 * **Lists**: Unordered (`<ul>`), Ordered (`<ol>`), and List Items (`<li>`)
 * **Key Notes**: HTML comments (``), case-insensitivity rules.
+''

@@ -8,3 +8,4 @@ This directory covers structural elements, layout containers, semantic markup, f
 * **Semantic Tags**: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
 * **HTML Entities**: Special symbols like `&nbsp;`, `&lt;`, `&gt;`, `&amp;`
 * **Emmet Shortcuts**: Speeding up development with shorthand syntax
+''

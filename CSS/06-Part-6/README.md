@@ -1,38 +1,56 @@
-# 📱 CSS Part 6: Responsive Web Design, Media Queries & Animations
+# 📱 CSS Module 6: Responsive Web Design, Media Queries & Project Architecture
 
-[cite_start]This module focuses on building mobile-first, adaptive user interfaces using **Media Queries**, **CSS Grid Layouts**, keyframe animations, and layering with **`z-index`**[cite: 4, 24, 26]. 
-
----
-
-## 🐾 Featured Project: Pet Adoption Web Page
-
-[cite_start]A fully responsive, iPhone SE-optimized web page designed to showcase layout flexibility across modern device viewports[cite: 2, 4, 47].
-
-* 🔗 **Source Code Folder:** [`/projects/pet_adoption_website`](./projects/pet_adoption_website/)
-* 🌐 **Live Website Demo:** [View Live Site](https://ashishrodale.github.io/web-development-journey/CSS/Part-6/projects/pet_adoption_website/)
+This module focuses on mobile-first responsive architecture, media query breakpoints, CSS Grid playgrounds, stacking context via `z-index`, keyframe UI components, and complete end-to-end web project implementations.
 
 ---
 
-## 📂 Module Index & Direct Links
+## 🐶 Featured Project: Pet Adoption Web Page
 
-### 🛠️ Exercises & Practice Labs
-| Topic | Description | Source Files |
-| :--- | :--- | :---: |
-| **CSS Grid Playground** | Dynamic grid layout experiments and track sizing | [HTML](./exercises/grid_playground.html) \| [CSS](./exercises/grid_playground.css) |
-| **Media Queries** | Mobile-first breakpoints and layout changes | [HTML](./exercises/media_queries_practice.html) \| [CSS](./exercises/media_queries_practice.css) |
-| **z-index Layering** | Stacking context and element elevation controls | [HTML](./exercises/z_index_stacking.html) \| [CSS](./exercises/z_index_stacking.css) |
+A fully responsive, mobile-optimized web application showcasing dynamic layouts, fluid grids, and adaptive UI components across desktop and mobile viewports.
 
-### 📝 Assignment Solutions
-| Task / Component | Key Concepts Covered | Source Files |
-| :--- | :--- | :---: |
-| **Responsive Spinner Card** | Dynamic `@keyframes spin` rotation & media queries | [HTML](./assignments/responsive_spinner_card.html) \| [CSS](./assignments/responsive_spinner_card.css) |
-| **12-Column Grid Layout** | Dynamic column spans (`repeat(12, 1fr)`) | [HTML](./assignments/12_column_grid_layout.html) \| [CSS](./assignments/12_column_grid_layout.css) |
-| **Responsive Photo Gallery** | Media queries with scale transforms on hover | [HTML](./assignments/responsive_gallery_grid.html) \| [CSS](./assignments/responsive_gallery_grid.css) |
+* **Project Source Code:** [`project-pet-adoption/`](./project-pet-adoption/)
+* **HTML Document:** [`index.html`](./project-pet-adoption/index.html)
+* **CSS Stylesheet:** [`style.css`](./project-pet-adoption/style.css)
 
 ---
 
-## 🛠️ How to View Locally
+## 🛠️ Exercises & Practice Labs
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/ashishrodale/web-development-journey.git](https://github.com/ashishrodale/web-development-journey.git)
+| Topic / Concept | Description | HTML Source | CSS Stylesheet |
+| :--- | :--- | :--- | :--- |
+| **Grid Playground** | Interactive CSS Grid layout experiments and track sizing | [`grid_playground.html`](./exercises/grid_playground.html) | [`grid_playground.css`](./exercises/grid_playground.css) |
+| **Media Queries** | Mobile-first media query breakpoints & adaptive layouts | [`media_queries_practice.html`](./exercises/media_queries_practice.html) | [`media_queries_practice.css`](./exercises/media_queries_practice.css) |
+| **Z-Index Layering** | Stacking contexts, positioning, and element elevation controls | [`z_index_stacking.html`](./exercises/z_index_stacking.html) | [`z_index_stacking.css`](./exercises/z_index_stacking.css) |
+
+---
+
+## 🎯 Assignments & Solutions
+
+| Task / Component | Key Concepts Covered | HTML Source | CSS Stylesheet |
+| :--- | :--- | :--- | :--- |
+| **Responsive Spinner Card** | Dynamic `@keyframes spin` rotation with responsive layout adjustment | [`responsive_spinner_card.html`](./assignments/responsive_spinner_card.html) | [`responsive_spinner_card.css`](./assignments/responsive_spinner_card.css) |
+| **12-Column Grid Layout** | Dynamic 12-column grid spans using `repeat(12, 1fr)` | [`12_column_grid_layout.html`](./assignments/12_column_grid_layout.html) | — |
+| **Responsive Photo Gallery** | Responsive image grid with transform scale effects on hover | — | [`responsive_gallery_grid.css`](./assignments/responsive_gallery_grid.css) |
+
+---
+
+## 📂 Directory Structure
+
+```text
+06-Part-6/
+├── README.md
+├── assignments/
+│   ├── 12_column_grid_layout.html
+│   ├── responsive_gallery_grid.css
+│   ├── responsive_spinner_card.css
+│   └── responsive_spinner_card.html
+├── exercises/
+│   ├── grid_playground.css
+│   ├── grid_playground.html
+│   ├── media_queries_practice.css
+│   ├── media_queries_practice.html
+│   ├── z_index_stacking.css
+│   └── z_index_stacking.html
+└── project-pet-adoption/
+    ├── index.html
+    └── style.css

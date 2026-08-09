@@ -1,43 +1,54 @@
-# 🎨 CSS3 Mastery & Responsive Web Design
+# 🎨 Modern CSS3 & Responsive Web Architecture
 
-Welcome to the **CSS** directory of my Web Development Journey repository! This folder tracks my end-to-end learning of Cascading Style Sheets (CSS3), from foundational styling rules to modern layout architectures (Flexbox & CSS Grid) and fully responsive, mobile-first design.
-
----
-
-## 📌 Syllabus & Module Breakdown
-
-| Module | Core Topics Covered | Status | Quick Access Link |
-| :--- | :--- | :---: | :---: |
-| **Part 1: CSS Foundations** | Selectors, Colors, Fonts, Text Styling, Line Height | Completed ✅ | [Explore Part 1](./Part-1-Getting-Started/) |
-| **Part 2: Box Model & Layouts** | Margin, Padding, Borders, Content Box vs Border Box | Completed ✅ | [Explore Part 2](./Part-2/) |
-| **Part 3: Advanced Spacing & Sizing** | Heights, Widths, Rounded Corners, Custom Styling | Completed ✅ | [Explore Part 3](./Part-3/) |
-| **Part 4: Flexbox & Animations** | Flex Direction, Align/Justify, Keyframes, Transitions | Completed ✅ | [Explore Part 4](./Part-4/) |
-| **Part 5: CSS Grid Architecture** | Grid Template Columns/Rows, Fractional Units (fr), Gap | Completed ✅ | [Explore Part 5](./Part-5/) |
-| **Part 6: Responsive Web Design** | Media Queries, Breakpoints, Viewports, z-index Stacking | Completed ✅ | [Explore Part 6](./Part-6/) |
+Welcome to the central repository for my CSS development journey. This repository contains a structured progression of production-ready web designs, mobile-first layouts, dynamic CSS Grid/Flexbox architectures, and standalone responsive projects.
 
 ---
 
-## 🚀 Featured Mini-Projects
+## 🌟 Featured Live Demos & Projects Showcase
 
-Here are the practical, real-world mini-projects built during and upon completion of the CSS module:
+Recruiters and visitors can preview live interactive builds directly in the browser:
 
-| Project Name | Description | Tech Stack | Project Folder Link |
-| :--- | :--- | :--- | :---: |
-| 🐶 **Pet Adoption Page** | A responsive landing page optimized for mobile viewports (iPhone SE) featuring Flexbox cards. | [cite_start]HTML5, CSS3, Media Queries [cite: 156] | [View Project Code](./Part-6/project-pet-adoption/) |
-| 📸 **Photography Landing Page** | Interactive photography site featuring a full-screen hero image, CSS hover transforms, and a sliding hamburger menu. | [cite_start]HTML5, CSS3, Transitions, Flexbox [cite: 502] | [View Project Code](./projects/photography_hamburger_menu/) |
-
----
-
-## 🛠️ Key Concepts & Techniques Mastered
-
-* **Modern Layouts:** Mastered both 1D (`Flexbox`) and 2D (`CSS Grid`) layout systems to build dynamic, flexible web interface structures.
-* [cite_start]**Responsive Design:** Utilized `@media` queries and fluid CSS units (`vh`, `vw`, `%`, `rem`, `fr`) to build mobile-first designs that scale across all screen dimensions[cite: 156].
-* [cite_start]**UI Interactions & Motion:** Implemented keyframe `@keyframes` animations, dynamic state transitions (`:hover`), and layering context (`z-index`) for sleek user experiences[cite: 156].
+| Project | Live Web App | Source Code | Tech & Highlights |
+| :--- | :---: | :---: | :--- |
+| **Pet Adoption Page** | [View Live Site 🚀](https://ashishrodale.github.io/web-development-journey/CSS/06-Part-6/project-pet-adoption/index.html) | [`Code 📁`](./06-Part-6/project-pet-adoption/) | CSS Grid, Mobile-First Media Queries, Fluid Card Layouts |
+| **Responsive Hamburger Menu** | [View Live Site 🚀](https://ashishrodale.github.io/web-development-journey/CSS/Mini-Project/responsive-hamburger-menu/hamburger_menu.html) | [`Code 📁`](./Mini-Project/responsive-hamburger-menu/) | Off-Canvas Navigation, CSS Transitions, Pure Flexbox |
 
 ---
 
-## 💻 How to Run Locally
+## 📚 Curriculum Breakdown & Course Modules
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/ashishrodale/web-development-journey.git](https://github.com/ashishrodale/web-development-journey.git)
+| Module Directory | Key Core Concepts | Primary Practice Files |
+| :--- | :--- | :--- |
+| **[01-Part-1](./01-Part-1/)** | Selectors, Inline vs. Block Elements, Colors & Typography | `selectors.html`, `style.css` |
+| **[02-Part-2](./02-Part-2/)** | CSS Box Model, Margins, Padding, Borders, Outlines | `box_model.html`, `box_model.css` |
+| **[03-Part-3](./03-Part-3/)** | CSS Positioning (Relative, Absolute, Fixed, Sticky) | `positioning_practice.html` |
+| **[04-Part-4](./04-Part-4/)** | Flexbox Layout Engine, Axis Alignment, Flex Grow/Shrink | `flexbox_layout.html`, `flexbox_layout.css` |
+| **[05-Part-5](./05-Part-5/)** | Advanced Styling, Animations, Transforms & Keyframes | `css_transforms.html`, `spinner.css` |
+| **[06-Part-6](./06-Part-6/)** | Responsive Web Design, Media Queries & Project Architecture | `project-pet-adoption/`, `grid_playground.html` |
+| **[Mini-Project](./Mini-Project/)** | Standalone Component Implementations & UI Patterns | `responsive-hamburger-menu/` |
+
+---
+
+## 🛠️ Technical Stack & Skills Demonstrated
+
+* **Layout Engines:** CSS Grid, Flexbox, Multi-Column Layouts, CSS Table Display
+* **Responsive Architecture:** Mobile-First Breakpoints, Relative Units (`em`, `rem`, `vh`, `vw`, `%`)
+* **Visual FX & Motion:** `@keyframes`, CSS Transitions, 2D/3D Transforms, `z-index` Stacking Contexts
+* **Code Quality:** Semantic HTML Integration, Clean Naming Standards, DRY Stylesheets
+
+---
+
+## 📂 CSS Directory Map
+
+```text
+CSS/
+├── README.md                          <-- (You are here)
+├── 01-Part-1/                         <-- CSS Basics & Selectors
+├── 02-Part-2/                         <-- Box Model & Spacing
+├── 03-Part-3/                         <-- CSS Positioning Engine
+├── 04-Part-4/                         <-- Flexbox Layout Architecture
+├── 05-Part-5/                         <-- Transitions, Animations & Keyframes
+├── 06-Part-6/                         <-- Responsive Web Design & Grid
+│   └── project-pet-adoption/         <-- Featured Course Project
+└── Mini-Project/                      <-- Standalone Mini-Projects
+    └── responsive-hamburger-menu/     <-- Mobile Off-Canvas Navigation

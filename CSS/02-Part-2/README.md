@@ -1,34 +1,44 @@
-# 🎨 CSS - Part 2: Selectors, Specificity & Pseudo-Elements
+# 🎯 CSS Selectors, Specificity & Pseudo-Elements
 
-Welcome to **Part 2** of my CSS journey! This directory contains code examples, practice exercises, and assignment solutions focused on basic selectors, pseudo-classes, pseudo-elements, specificity, and property inheritance.
-
----
-
-## 📊 Progress Tracker
-
-- **Module Completion:** `100%` ✅
-- **Topics Covered:** Selectors, ID/Class specificity, Pseudo-classes (`:hover`, `:nth-of-type`), Pseudo-elements (`::first-letter`), CSS Inheritance.
+Welcome to **Module 2** of the CSS series. This section dives into CSS specificity rules, advanced selector targeting, pseudo-classes, pseudo-elements, and property inheritance behavior.
 
 ---
 
-## 📁 Repository Files & Direct Links
+## 📊 Module Architecture & Resources
 
-| Topic / Assignment | HTML File | CSS File | Description |
+| Topic / Focus Area | HTML Source | CSS Stylesheet | Functional Description |
 | :--- | :--- | :--- | :--- |
-| **Main Chapter Demo** | [index.html](./index.html) | — | Quora UI layout demonstrating basic markup & structural styling. |
-| **Practice Questions** | [PracticeQs.html](./PracticeQs.html) | [PQ.css](./PQ.css) | Facebook UI buttons & search field styling using class and ID selectors. |
-| **Assignment Questions** | [AQ.html](./AQ.html) | [AQ.css](./AQ.css) | Complete solution for Part 2 assignment (pseudo-classes, pseudo-elements, universal selector). |
-| **Inheritance Demo** | [inheritance_demo.html](./inheritance_demo.html) | — | Demonstrates text and layout property inheritance across nested HTML elements. |
+| **Main Chapter Demo** | [`index.html`](./index.html) | — | Quora UI layout demonstrating core structural markup and basic styling rules. |
+| **Practice Questions** | [`PracticeQs.html`](./PracticeQs.html) | [`PQ.css`](./PQ.css) | Re-creating UI elements (buttons, search inputs) via class & ID selectors. |
+| **Assignment Solutions** | [`AQ.html`](./AQ.html) | [`AQ.css`](./AQ.css) | Complete solution for advanced selectors, pseudo-classes, and universal rules. |
+| **Inheritance Demo** | [`inheritance_demo.html`](./inheritance_demo.html) | — | Demonstrates typography and color inheritance behavior across nested elements. |
 
 ---
 
-## 💡 Key Learnings
+## 💡 Key Technical Takeaways
 
-1. **Selector Priority & Specificity:**
-   - Universal Selector (`*`) $\rightarrow$ Element Selector $\rightarrow$ Class Selector (`.`) $\rightarrow$ ID Selector (`#`).
-2. **Pseudo-Classes & Pseudo-Elements:**
-   - `:hover` for interactive styling.
-   - `:nth-of-type()` for selecting recurring elements.
-   - `::first-letter` for styling initial characters.
-3. **Inheritance:**
-   - Certain properties like `font-family` and `color` naturally cascade down to child elements.
+* **Selector Specificity Hierarchy:**
+  `Universal (*)` $\rightarrow$ `Element (p, h1)` $\rightarrow$ `Class (.class)` $\rightarrow$ `ID (#id)` $\rightarrow$ `Inline Styles`
+
+* **Pseudo-Classes & Pseudo-Elements:**
+  * `:hover` — Applied state-based visual feedback for interactive elements.
+  * `:nth-of-type()` — Targeted specific structural children without extra classes.
+  * `::first-letter` — Custom typographic drop-cap effects.
+
+* **Inheritance Rules:**
+  * Inherited properties: `font-family`, `color`, `line-height`, `text-align`.
+  * Non-inherited properties: `margin`, `padding`, `border`, `background`.
+
+---
+
+## 📁 Directory Structure
+
+```text
+02-Part-2/
+├── AQ.css
+├── AQ.html
+├── PQ.css
+├── PracticeQs.html
+├── README.md
+├── index.html
+└── inheritance_demo.html

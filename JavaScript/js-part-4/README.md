@@ -4,43 +4,53 @@
 [![Status](https://img.shields.io/badge/Status-Completed-success)]()
 [![Focus](https://img.shields.io/badge/Focus-Data_Structures_%26_Algorithms-blue)]()
 
-Welcome to the **JavaScript Part 4** module documentation. This repository showcases advanced control flow implementations, algorithmic problem-solving using loops, dynamic array manipulation, and interactive mini console applications built with modern JavaScript (ES6+).
+Welcome to the **JavaScript Part 4** module documentation. This repository showcases complete mastery over control flow, algorithmic problem-solving via iteration, array manipulation, and interactive mini console applications built with modern JavaScript (ES6+).
 
 ---
 
 ## 🚀 Key Highlights & Featured Projects
 
-> **Highlight Projects:** Built interactive console-based applications utilizing state management, dynamic array operations, and custom break conditions.
+> **Interactive Apps:** Built console-driven applications leveraging state manipulation, custom break conditions, and dynamic input handling.
 
-* 🛠️ **[Interactive To-Do List App](./mini-projects/todo-app/)** — Features dynamic task addition, real-time listing, index-based element removal, and graceful exit handling.
-* 🎮 **[Guessing Game Console App](./mini-projects/favorite-movie/)** — Implements controlled infinite loops (`while`), input validation, and dynamic termination triggers.
-
----
-
-## 📑 Core Concepts Mastered
-
-* **Loop Architectures**: Standard `for`, dynamic `while`, and modern ES6 `for...of` iteration.
-* **Control Flow Operations**: Precise application of `break` and continuous loop logic.
-* **Array Traversal**: Nested array looping, multi-dimensional array search, and dynamic indexing.
-* **Algorithmic Solutions**: Number decomposition, array filtering, search algorithms, and mathematical computations.
+* 🛠️ **[Interactive To-Do List App](./mini-projects/todo-app/)** — Supports full CRUD actions (`add`, `list`, `delete` by index) and dynamic prompt termination (`quit`).
+* 🎮 **[Movie Guessing Game](./mini-projects/favorite-movie/)** — Demonstrates controlled `while` loops, input normalization, and explicit break logic.
 
 ---
 
-## 📂 Project & Assignment Directory
+## 📑 Curriculum Coverage
 
-Below is the complete file matrix. Click any link under **Source Code** to view the implementation directly.
+This module covers 100% of the course topics with clean, modular implementation files:
 
-| Category | Topics / Questions | Description | Source Code |
+* 🔄 **Loop Architectures**: Standard `for`, dynamic `while`, and modern ES6 `for...of` loops.
+* 🧠 **Control Flow Techniques**: Tracing execution via dry runs, handling break/continue triggers, and preventing infinite loop states.
+* 📊 **Array Traversal**: Nested array looping, multi-dimensional array processing, and dynamic index access.
+* 🧮 **Algorithmic Solvers**: Digit decomposition, element filtering, factorials, and dynamic array bounds searching.
+
+---
+
+## 📂 Project & Module Directory
+
+Click any link under **Source Code** to navigate directly to that specific implementation file or directory.
+
+| Category | Module / Question | Key Concepts & Topics Covered | Source Code |
 | :--- | :--- | :--- | :---: |
-| 🚀 **Featured App** | **To-Do Application** | Full CRUD console app with list, add, & delete actions | [📁 View App](./mini-projects/todo-app/) |
-| 🚀 **Featured App** | **Movie Guessing Game** | Interactive loop-based prompt game with break logic | [📁 View Game](./mini-projects/favorite-movie/) |
-| 📝 **Assignment** | **Q1: Array Element Removal** | Deletes all instances of a target element `num` from an array | [📄 `q1-delete-occurrences.js`](./assignment-questions/q1-delete-occurrences.js) |
-| 📝 **Assignment** | **Q2: Digit Counter** | Calculates the exact number of digits in any given integer | [📄 `q2-count-digits.js`](./assignment-questions/q2-count-digits.js) |
-| 📝 **Assignment** | **Q3: Sum of Digits** | Iterates through digits to compute total positional sum | [📄 `q3-sum-of-digits.js`](./assignment-questions/q3-sum-of-digits.js) |
-| 📝 **Assignment** | **Q4: Factorial Calculation** | Computes factorials using iterative multiplication logic | [📄 `q4-factorial.js`](./assignment-questions/q4-factorial.js) |
-| 📝 **Assignment** | **Q5: Array Max Finder** | Algorithms to isolate the highest value in positive numeric arrays | [📄 `q5-largest-number.js`](./assignment-questions/q5-largest-number.js) |
-| 💡 **Practice** | **For Loops & Iteration** | Standard iteration, odd/even filters, & multiplication tables | [📄 `for-loops.js`](./practice-concepts/for-loops.js) |
-| 💡 **Practice** | **While & For-Of Loops** | Dynamic condition matching and clean array traversals | [📄 `while-loops.js`](./practice-concepts/while-loops.js) |
+| 🚀 **Featured App** | **To-Do Application** | Array CRUD operations, loop condition control | [📁 View App](./mini-projects/todo-app/) |
+| 🚀 **Featured App** | **Movie Guessing Game** | Dynamic condition matching, string normalization | [📁 View Game](./mini-projects/favorite-movie/) |
+| 📝 **Assignment** | **Q1: Element Deletion** | Target removal from numeric arrays | [📄 `q1-delete-occurrences.js`](./assignment-questions/q1-delete-occurrences.js) |
+| 📝 **Assignment** | **Q2: Digit Counter** | Positional arithmetic & counting logic | [📄 `q2-count-digits.js`](./assignment-questions/q2-count-digits.js) |
+| 📝 **Assignment** | **Q3: Sum of Digits** | Digit extraction & running total computation | [📄 `q3-sum-of-digits.js`](./assignment-questions/q3-sum-of-digits.js) |
+| 📝 **Assignment** | **Q4: Factorial Calculator**| Iterative mathematical product sequences | [📄 `q4-factorial.js`](./assignment-questions/q4-factorial.js) |
+| 📝 **Assignment** | **Q5: Max Value Finder** | Array bounds evaluation & peak extraction | [📄 `q5-largest-number.js`](./assignment-questions/q5-largest-number.js) |
+| 💡 **Practice** | **01. For Loops** | Basic iteration patterns & syntax | [📄 `01-for-loops.js`](./practice-concepts/01-for-loops.js) |
+| 💡 **Practice** | **02. Dry Run Trace** | Execution tracking & loop counter state | [📄 `02-dry-run-concepts.js`](./practice-concepts/02-dry-run-concepts.js) |
+| 💡 **Practice** | **03. Odd & Even Filters**| Step-based numerical iteration (`i += 2`) | [📄 `03-print-odd-even-numbers.js`](./practice-concepts/03-print-odd-even-numbers.js) |
+| 💡 **Practice** | **04. Multiplication Table**| Dynamic multiplication formula formatting | [📄 `04-multiplication-table.js`](./practice-concepts/04-multiplication-table.js) |
+| 💡 **Practice** | **05. Infinite Loops** | Defensive logic & safe break triggers | [📄 `05-infinite-loops-demo.js`](./practice-concepts/05-infinite-loops-demo.js) |
+| 💡 **Practice** | **06. Nested Loops** | Multi-level loop execution & matrices | [📄 `06-nested-loops.js`](./practice-concepts/06-nested-loops.js) |
+| 💡 **Practice** | **07. While Loops** | Indefinite iteration & termination criteria | [📄 `07-while-loops.js`](./practice-concepts/07-while-loops.js) |
+| 💡 **Practice** | **08. Array Iteration** | Length-bounded array traversal | [📄 `08-loops-with-arrays.js`](./practice-concepts/08-loops-with-arrays.js) |
+| 💡 **Practice** | **09. Nested Arrays** | 2D Array iteration & nested index access | [📄 `09-nested-arrays-loops.js`](./practice-concepts/09-nested-arrays-loops.js) |
+| 💡 **Practice** | **10. For-Of Iteration** | Modern ES6 collection & sequence looping | [📄 `10-for-of-loops.js`](./practice-concepts/10-for-of-loops.js) |
 
 ---
 
@@ -50,15 +60,15 @@ Below is the complete file matrix. Click any link under **Source Code** to view 
 js-part-4/
 ├── 📄 README.md
 │
-├── 📁 assignment-questions/        # Solved Core Algorithmic Problems
-│   ├── 📄 index.html              # Script Host
+├── 📁 assignment-questions/             # Solved Core Algorithmic Problems
+│   ├── 📄 index.html                   # HTML Script Runner
 │   ├── 📄 q1-delete-occurrences.js
 │   ├── 📄 q2-count-digits.js
 │   ├── 📄 q3-sum-of-digits.js
 │   ├── 📄 q4-factorial.js
 │   └── 📄 q5-largest-number.js
 │
-├── 📁 mini-projects/               # Console Mini-Applications
+├── 📁 mini-projects/                    # Standalone Console Applications
 │   ├── 📁 favorite-movie/
 │   │   ├── 📄 index.html
 │   │   └── 📄 script.js
@@ -66,8 +76,15 @@ js-part-4/
 │       ├── 📄 index.html
 │       └── 📄 script.js
 │
-└── 📁 practice-concepts/           # Fundamentals & Syntax Demos
+└── 📁 practice-concepts/                # Comprehensive Curriculum Topics
     ├── 📄 index.html
-    ├── 📄 for-loops.js
-    ├── 📄 for-of-loops.js
-    └── 📄 while-loops.js
+    ├── 📄 01-for-loops.js
+    ├── 📄 02-dry-run-concepts.js
+    ├── 📄 03-print-odd-even-numbers.js
+    ├── 📄 04-multiplication-table.js
+    ├── 📄 05-infinite-loops-demo.js
+    ├── 📄 06-nested-loops.js
+    ├── 📄 07-while-loops.js
+    ├── 📄 08-loops-with-arrays.js
+    ├── 📄 09-nested-arrays-loops.js
+    └── 📄 10-for-of-loops.js

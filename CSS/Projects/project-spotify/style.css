@@ -1,0 +1,502 @@
+/* ==========================================================================
+   1. GLOBAL RESETS & BASE TYPOGRAPHY
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    overflow: hidden; /* Locks page scroll; inner main_content scrolls instead */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   2. MAIN LAYOUT CONTAINERS
+   ========================================================================== */
+.main {
+    display: flex;
+    height: calc(100vh - 72px); /* Leaves exact space for the fixed player */
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+/* Fixed-width left sidebar */
+.sidebar {
+    background-color: #000000;
+    width: 340px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Scrollable main content panel */
+.main_content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 0.75rem;
+    overflow-y: auto;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/* ==========================================================================
+   3. SIDEBAR NAVIGATION & LIBRARY
+   ========================================================================== */
+.nav {
+    background-color: #121212;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.25rem 0.75rem;
+    transition: opacity 0.2s ease;
+}
+
+.nav-option:hover {
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 0.75rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.icons i {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.icons i:hover {
+    opacity: 1;
+}
+
+/* --- FIXED: Library Recommendation Boxes --- */
+.lib-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #232323;
+    min-height: 8.5rem; /* Dynamic height so buttons never overflow */
+    height: auto;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    margin-top: 0.25rem;
+}
+
+/* Action Buttons / Badges */
+.badge {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    height: 2rem;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+}
+
+.dark-badge {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   4. MAIN CONTENT AREA & HEADER
+   ========================================================================== */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0 1rem 0;
+}
+
+/* ==========================================================================
+   5. MUSIC CARDS & ARTISTS GRID
+   ========================================================================== */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #181818;
+    width: 180px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #282828;
+}
+
+.card-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Circular Artist Cards */
+.artist-card {
+    text-align: left;
+}
+
+.artist-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50% !important;
+    background-color: #333333;
+    display: block;
+}
+
+/* Bottom Footer Separator */
+.footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ==========================================================================
+   6. BOTTOM FIXED MUSIC PLAYER BAR
+   ========================================================================== */
+.music-player {
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 100;
+}
+
+/* --- Left Section: Album Art & Info --- */
+.album {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.album-art {
+    height: 56px;
+    width: 56px;
+    border-radius: 0.25rem;
+    object-fit: cover;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.album-title:hover {
+    text-decoration: underline;
+}
+
+.album-artist {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.album-artist:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.album-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.album-icon {
+    font-size: 1rem;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.album-icon:hover {
+    color: #ffffff;
+}
+
+/* --- FIXED: CSS-Only Wishlist Heart Toggle --- */
+.wishlist-checkbox {
+    display: none !important;
+}
+
+.wishlist-label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.wishlist-label .heart-empty {
+    display: inline-block !important;
+    color: #b3b3b3;
+}
+
+.wishlist-label .heart-filled {
+    display: none !important;
+    color: #ff2d55;
+}
+
+.wishlist-checkbox:checked + .wishlist-label .heart-empty {
+    display: none !important;
+}
+
+.wishlist-checkbox:checked + .wishlist-label .heart-filled {
+    display: inline-block !important;
+    transform: scale(1.15);
+}
+
+/* --- Middle Section: Playback Controls & Progress Bar --- */
+.player {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.player-control-icon {
+    height: 1rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.playback-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.curr-time, .tot-time {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+/* --- Sliders Track & Thumb styling --- */
+.progress-bar, .volume-bar {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 70%;
+}
+
+.volume-bar {
+    width: 90px;
+    flex-shrink: 0;
+}
+
+.progress-bar::-webkit-slider-runnable-track,
+.volume-bar::-webkit-slider-runnable-track {
+    background-color: #4d4d4d;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+
+.progress-bar:hover::-webkit-slider-runnable-track,
+.volume-bar:hover::-webkit-slider-runnable-track {
+    background-color: #1bd760;
+}
+
+.progress-bar::-webkit-slider-thumb,
+.volume-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: -4px;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+}
+
+.progress-bar:hover::-webkit-slider-thumb,
+.volume-bar:hover::-webkit-slider-thumb {
+    opacity: 1;
+}
+
+/* --- Right Section: Utility & Volume Controls --- */
+.controls {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+    padding-right: 1.5rem;
+}
+
+.control-icon {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: color 0.2s ease;
+}
+
+.control-icon:hover {
+    color: #ffffff;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+

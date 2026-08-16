@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <!-- Favicon & Stylesheets -->
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+        <!-- ================= SIDEBAR NAVIGATION ================= -->
+        <div class="sidebar">
+            
+            <!-- Top Nav Options -->
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <!-- Library Section -->
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="Library">
+                        <a href="#">Your Library</a>
+                    </div>  
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div> 
+                </div>
+
+                <!-- Library Recommendation Boxes -->
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ================= MAIN CONTENT AREA ================= -->
+        <div class="main_content">
+
+            <!-- Sticky Top Header Navigation -->
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="Back">
+                    <img src="./assets/forward_icon.png" class="hide" alt="Forward">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App
+                    </button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>     
+            </div>
+            
+            <!-- Section 1: Recently Played -->
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/amgron.webp" class="card-image" alt="Angaaron">
+                    <p class="card-title">Angaaron (From "Pushpa 2 The Rule") [HINDI]</p>
+                    <p class="card-info">Shreya Ghoshal</p>
+                </div>
+            </div>
+
+            <!-- Section 2: Trending Songs -->
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Gehrahua.webp" class="card-image" alt="Gehra Hua">
+                    <p class="card-title">Gehra Hua (From "Dhurandhar")</p>
+                    <p class="card-info">Shashwat Sachdev, Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-image" alt="Top 50">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-image" alt="Naa Ready">
+                    <p class="card-title">Naa Ready (From "Leo")</p>
+                    <p class="card-info">Anirudh Ravichander, Vijay, Asal Kolaar</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/tabaahi.webp" class="card-image" alt="Tabaahi">
+                    <p class="card-title">Tabaahi (From "Toxic")</p>
+                    <p class="card-info">Vishal Mishra, Raj Shekhar</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/GOAT.webp" class="card-image" alt="G.O.A.T.">
+                    <p class="card-title">G.O.A.T.</p>
+                    <p class="card-info">Diljit Dosanjh</p>
+                </div>
+            </div>
+
+            <!-- Section 3: Popular Artists (Circular Profile Images) -->
+            <h2>Popular Artists</h2>
+            <div class="cards-container">
+                <div class="card artist-card">
+                    <img src="./assets/Arijitsingh.webp" class="artist-image" alt="Arijit Singh">
+                    <p class="card-title">Arijit Singh</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist-card">
+                    <img src="./assets/ARReham.jfif" class="artist-image" alt="A.R. Rahman">
+                    <p class="card-title">A.R. Rahman</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist-card">
+                    <img src="./assets/VishalShekhar.jfif" class="artist-image" alt="Vishal-Shekhar">
+                    <p class="card-title">Vishal-Shekhar</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist-card">
+                    <img src="./assets/Anirudha.jfif" class="artist-image" alt="Anirudh Ravichander">
+                    <p class="card-title">Anirudh Ravichander</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist-card">
+                    <img src="./assets/jasleen.jfif" class="artist-image" alt="Jasleen Royal">
+                    <p class="card-title">Jasleen Royal</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist-card">
+                    <img src="./assets/ShreyaGhoshal.jfif" class="artist-image" alt="Shreya Ghoshal">
+                    <p class="card-title">Shreya Ghoshal</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+
+            <!-- Section 4: Featured Charts -->
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-image" alt="Top Global">
+                    <p class="card-title">Top - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-image" alt="Top Songs India">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/TOp50.jpg" class="card-image" alt="Top 50 Global">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/Top50In.jpg" class="card-image" alt="Top 50 India">
+                    <p class="card-title">Top 50 - India</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            
+            <!-- Page Bottom Footer Separator -->
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- ================= FIXED BOTTOM MUSIC PLAYER ================= -->
+    <div class="music-player">
+
+        <!-- Left: Now Playing Song Details -->
+        <div class="album">
+            <img src="./assets/Heeriye.webp" class="album-art" alt="Heeriye Album Art">
+            <div class="album-info">
+                <a href="#" class="album-title">Heeriye</a>
+                <a href="#" class="album-artist">Arijit Singh</a>
+            </div>
+            <div class="album-icons">
+                <!-- CSS-Only Wishlist Heart Toggle -->
+                <input type="checkbox" id="wishlist-toggle" class="wishlist-checkbox">
+                <label for="wishlist-toggle" class="album-icon wishlist-label">
+                    <i class="fa-regular fa-heart heart-empty"></i>
+                    <i class="fa-solid fa-heart heart-filled"></i>
+                </label>
+                <i class="fa-solid fa-clone album-icon"></i>
+            </div>
+        </div>
+            
+        <!-- Middle: Track Playback & Progress Controls -->
+        <div class="player">
+            <div class="player-controls">
+                <img src="./assets/player_icon1.png" class="player-control-icon" alt="Shuffle">
+                <img src="./assets/player_icon2.png" class="player-control-icon" alt="Previous">
+                <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;" alt="Play">
+                <img src="./assets/player_icon4.png" class="player-control-icon" alt="Next">
+                <img src="./assets/player_icon5.png" class="player-control-icon" alt="Repeat">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" value="0">
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+
+        <!-- Right: Utility & Volume Controls -->
+        <div class="controls">
+            <i class="fa-regular fa-file-audio control-icon"></i>
+            <i class="fa-solid fa-list-ul control-icon"></i>
+            <i class="fa-solid fa-desktop control-icon"></i>
+            <i class="fa-solid fa-volume-high control-icon"></i>
+            <input type="range" min="0" max="100" class="volume-bar" value="70">
+        </div>
+    </div>
+</body>
+</html>

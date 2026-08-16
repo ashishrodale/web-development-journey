@@ -4,28 +4,13 @@ Welcome to the central repository for my CSS development journey. This repositor
 
 ---
 
-## 🔗 Project Showcase & Live Links
+## 🌟 Featured Projects Showcase
 
-| Project | Source Code Link | Direct Web View | Primary Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **Spotify Web Player UI** | [View Source Code](./Projects/project-spotify/) | [Open App Page](./Projects/project-spotify/index.html) | CSS Flexbox, Fixed Player, Range Sliders, Pure CSS Toggles |
-| **Pet Adoption Page** | [View Source Code](./06-Part-6/project-pet-adoption/) | [Open App Page](./06-Part-6/project-pet-adoption/index.html) | CSS Grid Layout, Mobile-First Media Queries, Fluid Cards |
-| **Responsive Hamburger Menu** | [View Source Code](./Mini-Project/responsive-hamburger-menu/) | [Open App Page](./Mini-Project/responsive-hamburger-menu/index.html) | Off-Canvas Navigation, CSS Transitions, Pure Flexbox |
-
----
-
-## 💼 LinkedIn & Portfolio Reference Links
-
-To share or highlight this Spotify UI Capstone project on **LinkedIn** or your resume, use these direct public URL templates:
-
-* **Direct GitHub Project Directory:**  
-  `https://github.com/ashishrodale/web-development-journey/tree/main/CSS/Projects/project-spotify`
-
-* **Direct HTML Source File:**  
-  `https://github.com/ashishrodale/web-development-journey/blob/main/CSS/Projects/project-spotify/index.html`
-
-* **Direct Stylesheet File:**  
-  `https://github.com/ashishrodale/web-development-journey/blob/main/CSS/Projects/project-spotify/style.css`
+| Project | Source Code Repository | Primary Tech Stack |
+| :--- | :--- | :--- |
+| **Spotify Web Player UI** | [View Code](./Projects/project-spotify/) | CSS Flexbox, Fixed Player, Custom Sliders, Pure CSS Toggles |
+| **Pet Adoption Page** | [View Code](./06-Part-6/project-pet-adoption/) | CSS Grid Layout, Mobile-First Media Queries, Fluid Cards |
+| **Responsive Hamburger Menu** | [View Code](./Mini-Project/responsive-hamburger-menu/) | Off-Canvas Navigation, CSS Transitions, Pure Flexbox |
 
 ---
 

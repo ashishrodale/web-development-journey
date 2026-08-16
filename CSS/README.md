@@ -6,11 +6,11 @@ Welcome to the central repository for my CSS development journey. This repositor
 
 ## 🌟 Featured Projects Showcase
 
-| Project | Source Code Repository | Primary Tech Stack |
-| :--- | :--- | :--- |
-| **Spotify Web Player UI** | [View Code](./Projects/project-spotify/) | CSS Flexbox, Fixed Player, Custom Sliders, Pure CSS Toggles |
-| **Pet Adoption Page** | [View Code](./06-Part-6/project-pet-adoption/) | CSS Grid Layout, Mobile-First Media Queries, Fluid Cards |
-| **Responsive Hamburger Menu** | [View Code](./Mini-Project/responsive-hamburger-menu/) | Off-Canvas Navigation, CSS Transitions, Pure Flexbox |
+| Project | Live Web App Output | Source Code Repository | Primary Tech Stack |
+| :--- | :--- | :--- | :--- |
+| **Spotify Web Player UI** | [🚀 View Live Project](https://htmlpreview.github.io/?https://github.com/ashishrodale/web-development-journey/blob/main/CSS/Projects/project-spotify/index.html) | [📁 View Code](./Projects/project-spotify/) | CSS Flexbox, Fixed Player, Custom Sliders, Pure CSS Toggles |
+| **Pet Adoption Page** | [🚀 View Live Project](https://htmlpreview.github.io/?https://github.com/ashishrodale/web-development-journey/blob/main/CSS/06-Part-6/project-pet-adoption/index.html) | [📁 View Code](./06-Part-6/project-pet-adoption/) | CSS Grid Layout, Mobile-First Media Queries, Fluid Cards |
+| **Responsive Hamburger Menu** | [🚀 View Live Project](https://htmlpreview.github.io/?https://github.com/ashishrodale/web-development-journey/blob/main/CSS/Mini-Project/responsive-hamburger-menu/index.html) | [📁 View Code](./Mini-Project/responsive-hamburger-menu/) | Off-Canvas Navigation, CSS Transitions, Pure Flexbox |
 
 ---
 

@@ -1,45 +1,41 @@
-# JavaScript Part 8: Higher-Order Array Methods & Modern ES6+
+# JavaScript Part 4: Loops & Iteration Algorithms
 
-> Single-point repository containing exercises, assignments, and master scripts covering JavaScript array iteration methods, default parameters, rest/spread operators, and destructuring.
+> Documentation, assignment solutions, and master scripts covering JavaScript loops (`for`, `while`, `for...of`), array iteration algorithms, digit manipulation, and array modification methods.
 
 ---
 
 ## 📌 Core Topics
 
-* **Array Iteration Methods:** `forEach`, `map`, and `filter`
-* **Array Logic & Reductions:** `every`, `some`, and `reduce`
-* **Modern ES6+ Features:** Default parameters, Spread syntax (`...`), Rest parameters (`...args`), and Destructuring
+* **Loop Fundamentals:** `for` loops, `while` loops, and `for...of` iteration syntax.
+* **Digit Algorithms:** Extracting individual digits using `% 10` modulo operations and updating quotient using `Math.floor()`.
+* **Array Algorithms:** Array element modification with `splice()`, element filtering, and max/min array element scanning.
+* **Mathematical Iterations:** Accumulative products (Factorial calculation) and digit sums.
 
 ---
 
-## 📂 Module Files
+## 📂 Module Files & Direct Links
 
-### 📄 Core Runners
-| File Name | Description | Link |
-| --- | --- | --- |
-| `index.html` | Master HTML Runner for Part 8 execution | [View File](./index.html) |
-| `app.js` | Master JavaScript file consolidating all topics | [View File](./app.js) |
+### 📄 Module Core Runners
+| File Name | Direct Link | Status |
+| :--- | :--- | :--- |
+| `index.html` | [View File](./index.html) | Completed |
+| `app.js` | [View File](./app.js) | Completed |
 
-### 🛠️ Practice Exercises
-| File Name | Direct Link | Topic Covered |
-| --- | --- | --- |
-| `exercise_runner.html` | [View File](./exercises/exercise_runner.html) | HTML runner executing exercise scripts |
-| `multiples_of_ten_checker.js` | [View File](./exercises/multiples_of_ten_checker.js) | Check array multiples of 10 (`every`) |
-| `find_minimum_element.js` | [View File](./exercises/find_minimum_element.js) | Find minimum element using `reduce` |
+---
 
 ### 📝 Assignment Questions
 | File Name | Direct Link | Task Description |
-| --- | --- | --- |
-| `assignment_runner.html` | [View File](./assignments/assignment_runner.html) | HTML runner executing assignment scripts |
-| `square_sum_average.js` | [View File](./assignments/square_sum_average.js) | Square, sum, and calculate array average |
-| `map_add_five.js` | [View File](./assignments/map_add_five.js) | Map array elements with $+5$ transformation |
-| `uppercase_strings.js` | [View File](./assignments/uppercase_strings.js) | Convert string array to uppercase |
-| `double_and_return_args.js` | [View File](./assignments/double_and_return_args.js) | Function with rest parameters & spread |
-| `merge_objects.js` | [View File](./assignments/merge_objects.js) | Merge objects using spread operator |
+| :--- | :--- | :--- |
+| `assignment_runner.html` | [View File](./assignments/assignment_runner.html) | Script runner loading all assignment JS files |
+| `delete_element_occurrences.js` | [View File](./assignments/delete_element_occurrences.js) | Remove all instances of a target element from an array |
+| `count_number_digits.js` | [View File](./assignments/count_number_digits.js) | Count total number of digits in a given integer |
+| `sum_of_digits.js` | [View File](./assignments/sum_of_digits.js) | Compute the sum of all digits in a given number |
+| `factorial_calculator.js` | [View File](./assignments/factorial_calculator.js) | Compute the factorial of a given integer $n$ |
+| `find_largest_in_array.js` | [View File](./assignments/find_largest_in_array.js) | Scan an array to find and return the largest number |
 
 ---
 
 ## 💻 How to Run & Verify
 
-1. Open `index.html`, `exercises/exercise_runner.html`, or `assignments/assignment_runner.html` in your web browser[cite: 4].
-2. Press `F12` and switch to the **Console** tab to view execution outputs[cite: 4].
+1. Open `index.html` or `assignments/assignment_runner.html` in your web browser.
+2. Open Developer Tools (`F12` $\rightarrow$ **Console** tab) to view complete code outputs.

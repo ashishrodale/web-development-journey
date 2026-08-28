@@ -40,39 +40,3 @@ btn.addEventListener("click", changeColor);
 document.addEventListener("keydown", function (event) {
     console.log("Key pressed:", event.key, "Code:", event.code);
 });
-
-// --- 4. Assignment Solutions ---
-
-// Qs1: Event Listeners practice (mouseout, keypress, scroll, load)
-window.addEventListener("load", () => {
-    console.log("Page fully loaded!");
-});
-
-window.addEventListener("scroll", () => {
-    console.log("Window scrolled");
-});
-
-// Qs2: Button created via JS changing color to green on click
-let greenBtn = document.createElement("button");
-greenBtn.innerText = "Click to turn green";
-document.body.appendChild(greenBtn);
-
-greenBtn.addEventListener("click", function () {
-    this.style.backgroundColor = "green";
-    this.style.color = "white";
-});
-
-// Qs3: Filtered name input updating heading dynamically (a-z, A-Z, space only)
-let heading = document.createElement("h2");
-heading.innerText = "Your Name";
-let input = document.createElement("input");
-input.placeholder = "enter your name";
-
-document.body.appendChild(heading);
-document.body.appendChild(input);
-
-input.addEventListener("input", function () {
-    let filteredValue = this.value.replace(/[^a-zA-Z ]/g, "");
-    this.value = filteredValue;
-    heading.innerText = filteredValue.length > 0 ? filteredValue : "Your Name";
-});

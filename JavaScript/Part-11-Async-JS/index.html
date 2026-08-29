@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Part 11 - Asynchronous JavaScript & Promises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">JavaScript Module 11</span>
+            <h1>Asynchronous JavaScript & Promises</h1>
+            <p class="subtitle">Call Stack, Single-Threaded Model, Callback Hell & Promise Chaining</p>
+        </header>
+
+        <main>
+            <section class="status-card">
+                <div class="status-header">
+                    <span class="status-indicator"></span>
+                    <h2>Execution Runner Status: Active</h2>
+                </div>
+                <p>Open the Developer Console (<code>F12</code> $\rightarrow$ <strong>Console</strong>) to observe asynchronous stack execution logs.</p>
+            </section>
+
+            <section class="demo-box" id="colorBox">
+                <h3>Dynamic Asynchronous Stage</h3>
+                <p id="stageText">Awaiting asynchronous triggers...</p>
+                <button id="startBtn">Trigger Asynchronous Sequence</button>
+            </section>
+
+            <section class="topics-grid">
+                <div class="topic-card">
+                    <h4>Call Stack & Event Loop</h4>
+                    <p>Understanding execution frames and non-blocking asynchronous Web APIs.</p>
+                </div>
+                <div class="topic-card">
+                    <h4>Callback Hell</h4>
+                    <p>Demonstration of deeply nested callbacks and code maintainability issues.</p>
+                </div>
+                <div class="topic-card">
+                    <h4>Promise Objects</h4>
+                    <p>Handling pending, resolved, and rejected states cleanly with <code>then()</code> and <code>catch()</code>.</p>
+                </div>
+                <div class="topic-card">
+                    <h4>Promise Chaining</h4>
+                    <p>Executing sequential asynchronous tasks without nesting callback parameters.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

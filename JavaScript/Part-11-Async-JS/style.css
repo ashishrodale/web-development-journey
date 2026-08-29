@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    margin-bottom: 1.5rem;
+}
+
+.badge {
+    background-color: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #f8fafc;
+    margin-top: 0.5rem;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+}
+
+.status-card {
+    background-color: #0f172a;
+    border-left: 4px solid #38bdf8;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.status-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #10b981;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #10b981;
+}
+
+.status-card h2 {
+    font-size: 1rem;
+    color: #f8fafc;
+}
+
+.status-card p {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.demo-box {
+    background-color: #0f172a;
+    border: 1px dashed #475569;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.5s ease;
+}
+
+.demo-box h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.demo-box p {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #7dd3fc;
+    transform: translateY(-2px);
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.topic-card {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.topic-card h4 {
+    color: #38bdf8;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+}
+
+.topic-card p {
+    color: #94a3b8;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}

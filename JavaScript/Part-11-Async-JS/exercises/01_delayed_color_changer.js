@@ -1,17 +1,15 @@
-// ASSIGNMENT 1: Dynamic Delayed Color Changer with Promises
+// ASSIGNMENT 1: Delayed Color Changer using Promises
 function changeBackground(color, delay) {
     return new Promise((resolve) => {
         setTimeout(() => {
-            console.log(`Applied Background Color: ${color}`);
-            resolve(`Color state updated to ${color}`);
+            document.body.style.backgroundColor = color;
+            console.log(`Changed background to ${color}`);
+            resolve();
         }, delay);
     });
 }
 
-changeBackground("violet", 1000)
-    .then(() => changeBackground("indigo", 1000))
-    .then(() => changeBackground("blue", 1000))
-    .then(() => changeBackground("green", 1000))
-    .then(() => changeBackground("yellow", 1000))
+changeBackground("red", 1000)
     .then(() => changeBackground("orange", 1000))
-    .then(() => changeBackground("red", 1000));
+    .then(() => changeBackground("green", 1000))
+    .then(() => changeBackground("blue", 1000));

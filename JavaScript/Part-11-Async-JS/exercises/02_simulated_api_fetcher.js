@@ -1,26 +1,21 @@
-// ASSIGNMENT 2: Simulated API Data Fetcher with Random Failures
+// ASSIGNMENT 2: Simulated API Data Fetcher
 function fakeFetch(endpoint) {
     return new Promise((resolve, reject) => {
-        const responseTime = Math.floor(Math.random() * 1500) + 500;
+        const delay = Math.floor(Math.random() * 2000) + 500;
         setTimeout(() => {
-            const success = Math.random() > 0.25;
-            if (success) {
-                resolve({ status: 200, url: endpoint, data: `Payload response from ${endpoint}` });
+            if (Math.random() > 0.2) {
+                resolve({ status: 200, data: `Payload from ${endpoint}` });
             } else {
-                reject(`HTTP 500: Server error while requesting ${endpoint}`);
+                reject(`Network error fetching from ${endpoint}`);
             }
-        }, responseTime);
+        }, delay);
     });
 }
 
-fakeFetch("/api/v1/users")
+fakeFetch("/api/user")
     .then((res) => {
-        console.log("Fetched Users:", res);
-        return fakeFetch("/api/v1/posts");
+        console.log("Fetch success:", res);
+        return fakeFetch("/api/posts");
     })
-    .then((res) => {
-        console.log("Fetched Posts:", res);
-    })
-    .catch((err) => {
-        console.error("API Request Failed:", err);
-    });
+    .then((res) => console.log("Fetch success:", res))
+    .catch((err) => console.error("Fetch failed:", err));

@@ -1,41 +1,29 @@
-// ASSIGNMENT 4: User Authentication & Profile Pipeline
-function authenticateUser(username, password) {
+// ASSIGNMENT 4: Authentication Flow Simulation
+function loginUser(username, password) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (username === "admin" && password === "pass123") {
-                console.log("Step 1: User authenticated successfully.");
-                resolve({ userId: 42, token: "JWT_SECURE_TOKEN_98765" });
+            if (username === "admin" && password === "secret") {
+                resolve({ token: "AUTH_TOKEN_XYZ123" });
             } else {
-                reject("Step 1 Failed: Invalid Username or Password.");
+                reject("Invalid Credentials");
             }
-        }, 600);
+        }, 800);
     });
 }
 
-function fetchUserProfile(authData) {
+function getUserProfile(token) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (authData.token === "JWT_SECURE_TOKEN_98765") {
-                console.log("Step 2: User profile fetched.");
-                resolve({ id: authData.userId, username: "admin", role: "Administrator" });
+            if (token === "AUTH_TOKEN_XYZ123") {
+                resolve({ name: "Alex Developer", role: "Administrator" });
             } else {
-                reject("Step 2 Failed: Unauthorized Token.");
+                reject("Invalid Authentication Token");
             }
-        }, 600);
+        }, 800);
     });
 }
 
-function fetchUserPermissions(profile) {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            console.log("Step 3: User permissions loaded.");
-            resolve({ ...profile, permissions: ["READ", "WRITE", "DELETE"] });
-        }, 600);
-    });
-}
-
-authenticateUser("admin", "pass123")
-    .then((authData) => fetchUserProfile(authData))
-    .then((profile) => fetchUserPermissions(profile))
-    .then((fullUserData) => console.log("Authentication Pipeline Complete:", fullUserData))
-    .catch((err) => console.error("Authentication Error:", err));
+loginUser("admin", "secret")
+    .then((authData) => getUserProfile(authData.token))
+    .then((profile) => console.log("Authenticated User Profile:", profile))
+    .catch((err) => console.error("Authentication Failed:", err));

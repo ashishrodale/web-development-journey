@@ -1,19 +1,21 @@
-// ASSIGNMENT 3: Sequential Mathematical Pipeline
-function addAsync(n, val) {
+// ASSIGNMENT 3: Asynchronous Sequential Math Pipeline
+function asyncMathOp(initialValue, operation, operand, delay) {
     return new Promise((resolve) => {
-        setTimeout(() => resolve(n + val), 500);
+        setTimeout(() => {
+            let result;
+            switch (operation) {
+                case "add": result = initialValue + operand; break;
+                case "multiply": result = initialValue * operand; break;
+                case "subtract": result = initialValue - operand; break;
+                default: result = initialValue;
+            }
+            console.log(`Performed ${operation} ${operand}: ${initialValue} -> ${result}`);
+            resolve(result);
+        }, delay);
     });
 }
 
-addAsync(10, 5)
-    .then((res) => {
-        console.log("Step 1 (10 + 5):", res);
-        return addAsync(res, 20);
-    })
-    .then((res) => {
-        console.log("Step 2 (Result + 20):", res);
-        return addAsync(res, -5);
-    })
-    .then((finalRes) => {
-        console.log("Final Calculated Value:", finalRes);
-    });
+asyncMathOp(10, "add", 5, 500)
+    .then((res) => asyncMathOp(res, "multiply", 3, 500))
+    .then((res) => asyncMathOp(res, "subtract", 15, 500))
+    .then((finalResult) => console.log("Final Pipeline Output:", finalResult));

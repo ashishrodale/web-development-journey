@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-basics-module",
+  "version": "1.0.0",
+  "description": "Node.js core concepts including REPL, process object, package management, and module exports.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "npm",
+    "javascript"
+  ],
+  "author": "Ashish Rodale",
+  "license": "ISC"
+}
